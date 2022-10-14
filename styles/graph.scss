@@ -1,0 +1,24 @@
+.graph {
+    position: absolute;
+    bottom: 5rem;
+    left: 0;
+
+    max-width: 28.9rem;
+    width: 100%;
+
+    &_first {
+        height: 52rem;
+    }
+
+    &_second {
+        height: 32rem;
+    }
+
+    &_third {
+        height: 24.5rem;
+    }
+
+    &_fourth {
+        height: 51.5rem;
+    }
+}

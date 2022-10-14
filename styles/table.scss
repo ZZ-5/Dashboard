@@ -1,0 +1,31 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+
+    &__name {
+        font-size: $fs-1;
+        color: $primary;
+        height: 3.2rem;
+        border-bottom: 1px solid $secondary;
+        vertical-align: top;
+    }
+
+    &__row {
+        text-align: center;
+        font-size: $fs-3;
+        height: 5.9rem;
+        color: $primary;
+
+        &:not(:last-child) {
+            border-bottom: 1px solid $secondary;
+        }
+    }
+
+    &__row-link {
+        color: $blue;
+    }
+
+    &__row-total {
+        text-align: start;
+    }
+}
